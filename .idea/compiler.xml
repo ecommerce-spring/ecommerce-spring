@@ -2,8 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
-      <profile name="Annotation profile for tela" enabled="true">
+      <profile name="Annotation profile for api-gateway" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -11,29 +10,13 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
         </processorPath>
-        <module name="tela" />
+        <module name="api-gateway" />
       </profile>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="registro-servicio" />
-      </profile>
-      <profile name="Annotation profile for marca" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
-        </processorPath>
-        <module name="marca" />
-        <module name="servicio-producto" />
-        <module name="servicio-pagos" />
-        <module name="servicio-usuario" />
-        <module name="material" />
-        <module name="api-gateway" />
-        <module name="servicio-inventario" />
-        <module name="servicio-ordenes" />
       </profile>
       <profile name="Annotation profile for categoria" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -42,23 +25,39 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
         </processorPath>
-        <module name="categoria" />
+        <module name="servicio-categoria" />
+      </profile>
+      <profile name="Annotation profile for servicio-pagos" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
+        </processorPath>
+        <module name="servicio-material" />
+        <module name="servicio-pagos" />
+        <module name="servicio-producto" />
+        <module name="servicio-marca" />
+        <module name="servicio-usuario" />
+        <module name="servicio-inventario" />
+        <module name="servicio-ordenes" />
+        <module name="servicio-tela" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-gateway" options="-parameters" />
-      <module name="categoria" options="-parameters" />
-      <module name="marca" options="-parameters" />
-      <module name="material" options="-parameters" />
       <module name="registro-servicio" options="-parameters" />
+      <module name="servicio-categoria" options="-parameters" />
       <module name="servicio-inventario" options="-parameters" />
+      <module name="servicio-marca" options="-parameters" />
+      <module name="servicio-material" options="-parameters" />
       <module name="servicio-ordenes" options="-parameters" />
       <module name="servicio-pagos" options="-parameters" />
       <module name="servicio-producto" options="-parameters" />
+      <module name="servicio-tela" options="-parameters" />
       <module name="servicio-usuario" options="-parameters" />
-      <module name="tela" options="-parameters" />
     </option>
   </component>
 </project>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ce4ad77a-ad5d-4d75-bfcf-d2558a8f3bc2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registro-servicio/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servicio-categoria/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servicio-inventario/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servicio-marca/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servicio-material/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servicio-ordenes/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servicio-pagos/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servicio-producto/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servicio-tela/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servicio-usuario/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/api_gateway/ApiGatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/test/java/com/example/api_gateway/ApiGatewayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/test/java/com/example/apigateway/ApiGatewayApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categoria/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-categoria/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categoria/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-categoria/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categoria/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-categoria/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categoria/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-categoria/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categoria/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-categoria/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categoria/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-categoria/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categoria/src/main/java/com/example/categoria/CategoriaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-categoria/src/main/java/com/example/servicio_categoria/ServicioCategoriaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categoria/src/main/java/com/example/categoria/controller/CategoriaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-categoria/src/main/java/com/example/servicio_categoria/controller/CategoriaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categoria/src/main/java/com/example/categoria/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-categoria/src/main/java/com/example/servicio_categoria/model/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categoria/src/main/java/com/example/categoria/repository/CategoriaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-categoria/src/main/java/com/example/servicio_categoria/repository/CategoriaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categoria/src/main/java/com/example/categoria/service/CategoriaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-categoria/src/main/java/com/example/servicio_categoria/service/CategoriaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categoria/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-categoria/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categoria/src/test/java/com/example/categoria/CategoriaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-categoria/src/test/java/com/example/servicio_categoria/ServicioCategoriaApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marca/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-marca/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marca/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-marca/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marca/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-marca/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marca/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-marca/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marca/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-marca/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marca/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-marca/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marca/src/main/java/com/example/marca/MarcaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-marca/src/main/java/com/example/servicio_marca/ServicioMarcaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marca/src/main/java/com/example/marca/controller/MarcaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-marca/src/main/java/com/example/servicio_marca/controller/MarcaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marca/src/main/java/com/example/marca/model/Marca.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-marca/src/main/java/com/example/servicio_marca/model/Marca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marca/src/main/java/com/example/marca/repository/MarcaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-marca/src/main/java/com/example/servicio_marca/repository/MarcaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marca/src/main/java/com/example/marca/service/MarcaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-marca/src/main/java/com/example/servicio_marca/service/MarcaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marca/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-marca/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marca/src/test/java/com/example/marca/MarcaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-marca/src/test/java/com/example/servicio_marca/ServicioMarcaApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/material/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-material/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/material/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-material/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/material/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-material/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/material/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-material/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/material/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-material/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/material/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-material/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/material/src/main/java/com/example/material/MaterialApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-material/src/main/java/com/example/servicio_material/ServicioMaterialApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/material/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-material/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/material/src/test/java/com/example/material/MaterialApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-material/src/test/java/com/example/servicio_material/ServicioMaterialApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registro-servicio/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/registro-servicio/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-inventario/src/main/java/com/example/servicio_inventario/controller/InventarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-inventario/src/main/java/com/example/servicio_inventario/controller/InventarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-inventario/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-inventario/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-pagos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-pagos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-producto/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-producto/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tela/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-tela/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tela/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-tela/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tela/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-tela/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tela/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-tela/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tela/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-tela/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tela/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-tela/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tela/src/main/java/com/example/tela/TelaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-tela/src/main/java/com/example/servicio_tela/ServicioTelaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tela/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-tela/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tela/src/test/java/com/example/tela/TelaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-tela/src/test/java/com/example/servicio_tela/ServicioTelaApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="37R8qWGmkst20FeFzHOnMjRW58x" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.servicio-categoria [clean].executor": "Run",
+    "Maven.servicio-categoria [install].executor": "Run",
+    "Maven.servicio-marca [clean].executor": "Run",
+    "Maven.servicio-marca [install].executor": "Run",
+    "Maven.servicio-pagos [clean].executor": "Run",
+    "Maven.servicio-pagos [install].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "to.speed.mode.migration.done": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce4ad77a-ad5d-4d75-bfcf-d2558a8f3bc2" name="Changes" comment="" />
+      <created>1766854718343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766854718343</updated>
+    </task>
+    <servers />
+  </component>
+</project>

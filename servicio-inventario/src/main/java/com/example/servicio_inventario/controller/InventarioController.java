@@ -1,7 +1,6 @@
 package com.example.servicio_inventario.controller;
 
 import com.example.servicio_inventario.model.Inventario;
-import com.example.servicio_inventario.repository.InventarioRepository;
 import com.example.servicio_inventario.service.InventarioService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
