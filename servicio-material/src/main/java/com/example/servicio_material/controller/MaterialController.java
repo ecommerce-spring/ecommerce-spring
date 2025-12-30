@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/material")
+@RequestMapping("/api/materiales")
 public class MaterialController {
     public final MaterialService materialService;
 

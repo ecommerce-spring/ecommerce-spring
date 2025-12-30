@@ -16,9 +16,10 @@ public class Usuario {
     private String nombre;
     private String apellido_paterno;
     private String apellido_materno;
+    private Number rol;
     private String telefono;
     private String email;
     private String password;
-    private int estado;
+    private Number estado;
 
 }

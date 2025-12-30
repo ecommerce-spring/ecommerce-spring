@@ -16,6 +16,10 @@ public class TelaService {
     }
 
     public Tela guardar (@RequestBody Tela tela) {
+        if (tela.getNombre() != null) {
+            tela.setNombre(tela.getNombre().toUpperCase());
+        }
+
         tela.setEstado(1);
         Tela telaGuardado = telaRepository.save(tela);
         return  telaGuardado;
@@ -29,6 +33,9 @@ public class TelaService {
         Tela telaExistente = telaRepository.findById(id)
                 .orElseThrow( ()-> new RuntimeException("Tela no encontrada con ese ID") );
 
+        if(telaActualizada.getNombre() != null){
+            telaActualizada.setNombre(telaActualizada.getNombre().toUpperCase());
+        }
         telaExistente.setNombre(telaActualizada.getNombre());
 
         return telaRepository.save(telaExistente);

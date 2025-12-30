@@ -5,27 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce4ad77a-ad5d-4d75-bfcf-d2558a8f3bc2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/servicio-material/src/main/java/com/example/servicio_material/controller/MaterialController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servicio-material/src/main/java/com/example/servicio_material/model/Material.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servicio-material/src/main/java/com/example/servicio_material/repository/MaterialRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servicio-material/src/main/java/com/example/servicio_material/service/MaterialService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servicio-tela/src/main/java/com/example/servicio_tela/controller/TelaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servicio-tela/src/main/java/com/example/servicio_tela/model/Tela.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servicio-tela/src/main/java/com/example/servicio_tela/repository/TelaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servicio-tela/src/main/java/com/example/servicio_tela/service/TelaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servicio-tela/src/test/resources/application-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servicio-usuario/src/main/java/com/example/servicio_usuario/controller/UsuarioController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servicio-usuario/src/main/java/com/example/servicio_usuario/model/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servicio-usuario/src/main/java/com/example/servicio_usuario/repository/UsuarioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servicio-usuario/src/main/java/com/example/servicio_usuario/service/UsuarioService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-categoria/src/main/java/com/example/servicio_categoria/service/CategoriaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-categoria/src/main/java/com/example/servicio_categoria/service/CategoriaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servicio-marca/src/main/java/com/example/servicio_marca/service/MarcaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-marca/src/main/java/com/example/servicio_marca/service/MarcaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio-tela/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-tela/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio-tela/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-tela/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-material/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-material/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-material/src/main/java/com/example/servicio_material/controller/MaterialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-material/src/main/java/com/example/servicio_material/controller/MaterialController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-material/src/main/java/com/example/servicio_material/service/MaterialService.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-material/src/main/java/com/example/servicio_material/service/MaterialService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-material/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-material/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-producto/src/main/java/com/example/servicio_producto/service/ProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-producto/src/main/java/com/example/servicio_producto/service/ProductoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-tela/src/main/java/com/example/servicio_tela/model/Tela.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-tela/src/main/java/com/example/servicio_tela/model/Tela.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-tela/src/main/java/com/example/servicio_tela/service/TelaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-tela/src/main/java/com/example/servicio_tela/service/TelaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-usuario/src/main/java/com/example/servicio_usuario/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-usuario/src/main/java/com/example/servicio_usuario/model/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,10 +60,14 @@
     "Maven.servicio-categoria [install].executor": "Run",
     "Maven.servicio-marca [clean].executor": "Run",
     "Maven.servicio-marca [install].executor": "Run",
+    "Maven.servicio-material [clean].executor": "Run",
+    "Maven.servicio-material [install].executor": "Run",
     "Maven.servicio-pagos [clean].executor": "Run",
     "Maven.servicio-pagos [install].executor": "Run",
     "Maven.servicio-tela [clean].executor": "Run",
     "Maven.servicio-tela [install].executor": "Run",
+    "Maven.servicio-usuario [clean].executor": "Run",
+    "Maven.servicio-usuario [install].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",

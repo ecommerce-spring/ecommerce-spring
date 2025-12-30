@@ -15,6 +15,12 @@ public class MaterialService {
     }
 
     public Material guardar(Material material){
+        if (material.getNombre() != null) {
+            material.setNombre(material.getNombre().toUpperCase());
+        }
+        if (material.getDetalles() != null) {
+            material.setDetalles(material.getDetalles().toUpperCase());
+        }
         material.setEstado(1);
         Material materialGuardado = materialRepository.save(material);
         return materialGuardado;
@@ -28,7 +34,9 @@ public class MaterialService {
         Material materialExistente = materialRepository.findById(id)
                 .orElseThrow(()-> new RuntimeException("Material no encontrado con ese ID"));
 
-        materialExistente.setNombre(materialActualizado.getNombre());
+        if (materialActualizado.getNombre() != null) {
+            materialExistente.setNombre(materialActualizado.getNombre().toUpperCase());
+        }
 
         return materialRepository.save(materialExistente);
     }

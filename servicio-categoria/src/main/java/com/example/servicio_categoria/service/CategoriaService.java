@@ -16,6 +16,9 @@ public class CategoriaService {
 
     // Otros métodos del servicio...
     public Categoria guardar(Categoria categoria) {
+        if (categoria.getNombre() != null){
+            categoria.setNombre(categoria.getNombre().toUpperCase());
+        }
         categoria.setEstado(1);
         Categoria categoriaGuardada = categoriaRepository.save(categoria);
         return categoriaGuardada;
@@ -29,6 +32,9 @@ public class CategoriaService {
         Categoria categoriaExistente = categoriaRepository.findById(id)
                 .orElseThrow(()-> new RuntimeException("Categoria no encontrada con ese ID"));
 
+        if (categoriaActualizada.getNombre() != null){
+            categoriaActualizada.setNombre(categoriaActualizada.getNombre().toUpperCase());
+        }
         categoriaExistente.setNombre(categoriaActualizada.getNombre());
 
         return categoriaRepository.save(categoriaExistente);

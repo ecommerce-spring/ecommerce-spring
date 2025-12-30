@@ -16,6 +16,9 @@ public class MarcaService {
     }
 
     public Marca guardar(Marca marca) {
+        if(marca.getNombre() != null){
+            marca.setNombre(marca.getNombre().toUpperCase());
+        }
         marca.setEstado(1);
         Marca marcaGuardado = marcaRepository.save(marca);
         return marcaGuardado;
@@ -29,6 +32,9 @@ public class MarcaService {
         Marca marcaExistente = marcaRepository.findById(id)
                 .orElseThrow(()-> new RuntimeException("Marca no encontrada con ese ID"));
 
+        if(marcaActualizada.getNombre() != null){
+            marcaActualizada.setNombre(marcaActualizada.getNombre().toUpperCase());
+        }
         marcaExistente.setNombre(marcaActualizada.getNombre());
 
         return marcaRepository.save(marcaExistente);

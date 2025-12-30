@@ -19,5 +19,5 @@ public class Tela {
 
     private String codigo;
     private String nombre;
-    private int estado;
+    private Number estado;
 }

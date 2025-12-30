@@ -24,6 +24,10 @@ public class ProductoService {
     }
 
     public Producto guardar(Producto producto) {
+        if (producto.getNombre() != null) {
+            producto.setNombre(producto.getNombre().toUpperCase());
+        }
+
         // 1. Guardar en BD
         Producto productoGuardado = productoRepository.save(producto);
 
@@ -47,6 +51,9 @@ public class ProductoService {
         Producto productoExistente = productoRepository.findById(id)
                 .orElseThrow(()-> new RuntimeException("Producto no encontrado con ese ID"));
 
+        if (productoActualizado.getNombre() != null){
+            productoActualizado.setNombre(productoActualizado.getNombre().toUpperCase());
+        }
         productoExistente.setNombre(productoActualizado.getNombre());
         productoExistente.setDescripcion(productoActualizado.getDescripcion());
         productoExistente.setPrecio(productoActualizado.getPrecio());
