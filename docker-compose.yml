@@ -138,19 +138,19 @@ services:
     networks:
       - ecommerce-network
 
-#  servicio-tela:
-#    build: ./servicio-tela
-#    container_name: servicio-tela
-#    environment:
-#      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql-db:3306/ecommerce_db?createDatabaseIfNotExist=true
-#      - SPRING_DATASOURCE_USERNAME=root
-#      - SPRING_DATASOURCE_PASSWORD=root
-#      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://registro-servicio:8761/eureka/
-#    depends_on:
-#      - mysql-db
-#      - registro-servicio
-#    networks:
-#      - ecommerce-network
+  servicio-tela:
+    build: ./servicio-tela
+    container_name: servicio-tela
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql-db:3306/ecommerce_db?createDatabaseIfNotExist=true
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=root
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://registro-servicio:8761/eureka/
+    depends_on:
+      - mysql-db
+      - registro-servicio
+    networks:
+      - ecommerce-network
 
 #  servicio-material:
 #    build: ./servicio-material
