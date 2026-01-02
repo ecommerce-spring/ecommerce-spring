@@ -45,6 +45,13 @@ public class ProductoController {
         return productoService.listar();
     }
 
+    // CAMBIO AQUÍ: Agregamos "/sku" a la ruta para evitar conflictos y que coincida con tu prueba
+    @GetMapping("/sku/{sku}")
+    public ResponseEntity<Producto> obtenerPorSku(@PathVariable String sku) {
+        Producto producto = productoService.obtenerPorSku(sku);
+        return ResponseEntity.ok(producto);
+    }
+
     @PutMapping(value = "/{id}", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     public ResponseEntity <Producto> actualizar(
             @PathVariable Long id,

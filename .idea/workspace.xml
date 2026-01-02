@@ -8,17 +8,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio-categoria/src/main/java/com/example/servicio_categoria/service/CategoriaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-categoria/src/main/java/com/example/servicio_categoria/service/CategoriaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio-marca/src/main/java/com/example/servicio_marca/service/MarcaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-marca/src/main/java/com/example/servicio_marca/service/MarcaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio-material/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-material/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio-material/src/main/java/com/example/servicio_material/controller/MaterialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-material/src/main/java/com/example/servicio_material/controller/MaterialController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio-material/src/main/java/com/example/servicio_material/service/MaterialService.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-material/src/main/java/com/example/servicio_material/service/MaterialService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio-material/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-material/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-producto/src/main/java/com/example/servicio_producto/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-producto/src/main/java/com/example/servicio_producto/controller/ProductoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servicio-producto/src/main/java/com/example/servicio_producto/repository/ProductoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-producto/src/main/java/com/example/servicio_producto/repository/ProductoRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servicio-producto/src/main/java/com/example/servicio_producto/service/ProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-producto/src/main/java/com/example/servicio_producto/service/ProductoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio-tela/src/main/java/com/example/servicio_tela/model/Tela.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-tela/src/main/java/com/example/servicio_tela/model/Tela.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio-tela/src/main/java/com/example/servicio_tela/service/TelaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-tela/src/main/java/com/example/servicio_tela/service/TelaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicio-usuario/src/main/java/com/example/servicio_usuario/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/servicio-usuario/src/main/java/com/example/servicio_usuario/model/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +56,8 @@
     "Maven.servicio-material [install].executor": "Run",
     "Maven.servicio-pagos [clean].executor": "Run",
     "Maven.servicio-pagos [install].executor": "Run",
+    "Maven.servicio-producto [clean].executor": "Run",
+    "Maven.servicio-producto [install].executor": "Run",
     "Maven.servicio-tela [clean].executor": "Run",
     "Maven.servicio-tela [install].executor": "Run",
     "Maven.servicio-usuario [clean].executor": "Run",
@@ -75,6 +69,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.ApiGatewayApplication.executor": "Run",
     "Spring Boot.RegistroServicioApplication.executor": "Run",
+    "Spring Boot.ServicioProductoApplication.executor": "Run",
     "Spring Boot.ServicioTelaApplication.executor": "Run",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
@@ -88,7 +83,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.ServicioTelaApplication">
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
       <module name="api-gateway" />
@@ -117,6 +112,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServicioProductoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="servicio-producto" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.servicio_producto.ServicioProductoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.servicio_producto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServicioTelaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
       <module name="servicio-tela" />
@@ -133,9 +142,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ServicioTelaApplication" />
-        <item itemvalue="Spring Boot.ApiGatewayApplication" />
         <item itemvalue="Spring Boot.RegistroServicioApplication" />
+        <item itemvalue="Spring Boot.ServicioProductoApplication" />
+        <item itemvalue="Spring Boot.ApiGatewayApplication" />
+        <item itemvalue="Spring Boot.ServicioTelaApplication" />
       </list>
     </recent_temporary>
   </component>

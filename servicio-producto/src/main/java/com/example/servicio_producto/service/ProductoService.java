@@ -47,6 +47,12 @@ public class ProductoService {
         return productoRepository.findAll();
     }
 
+    public Producto obtenerPorSku(String sku) {
+        return productoRepository.findBySku(sku)
+                .orElseThrow(() -> new RuntimeException("Producto no encontrado con ese SKU"));
+
+    }
+
     public Producto actualizar (Long id , Producto productoActualizado){
         Producto productoExistente = productoRepository.findById(id)
                 .orElseThrow(()-> new RuntimeException("Producto no encontrado con ese ID"));
